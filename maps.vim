@@ -1,0 +1,11 @@
+" Buffer navigation 
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-H> <C-W>h
+" Open NERDTree
+nnoremap <C-O> :NERDTreeToggle<CR>
+" Live Server
+nnoremap <C-B> :Bracey<CR>
+" LaTeX Preview
+nnoremap <C-P> :LLPStartPreview<CR>
