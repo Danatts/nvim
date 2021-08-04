@@ -9,3 +9,7 @@ nnoremap <C-O> :NERDTreeToggle<CR>
 nnoremap <C-B> :Bracey<CR>
 " LaTeX Preview
 nnoremap <C-P> :LLPStartPreview<CR>
+" Return to normal mode when in insert mode, visual mode and command mode
+inoremap jk <ESC>
+vnoremap jk <ESC>
+cnoremap jk <ESC>
