@@ -3,7 +3,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 " Polyglot package
 Plug 'sheerun/vim-polyglot'
 " Auto completion
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Close tags
 Plug 'alvan/vim-closetag'
 " LaTeX syntax highlight
