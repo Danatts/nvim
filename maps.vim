@@ -13,3 +13,5 @@ nnoremap <C-P> :LLPStartPreview<CR>
 inoremap jk <ESC>
 vnoremap jk <ESC>
 cnoremap jk <ESC>
+" Search a file with fzf
+nnoremap <C-F> :Files<CR>

@@ -14,6 +14,9 @@ Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'jiangmiao/auto-pairs'
 " Live server
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'} 
+" Fzf (file filter)
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " Light status bar
 Plug 'itchyny/lightline.vim' 
 " Gruvbox theme

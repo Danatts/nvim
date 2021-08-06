@@ -8,7 +8,7 @@ set spelllang=en,es " Revisión ortográfica
 set spell " Activa la revisión ortográfica
 set termguicolors " Active true colors in terminal"
 set clipboard+=unnamedplus " Copy on clipboard
-set autochdir " Automatically change the current directory
+"set autochdir " Automatically change the current directory
 
 " EDITOR
 set wrap " Wrap lines
