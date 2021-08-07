@@ -16,8 +16,8 @@ set ignorecase  " Ignore uppercase on search
 set smartcase  " Do not ignore uppercase if the search has it
 set textwidth=119 " Adjust the text to a max of 120 columns
 set autoindent " New lines inherit the indentation of previous lines
-set tabstop=2 " Indent using four spaces 
-set shiftwidth=2 " When shifting, indent using four spaces
+set tabstop=2 " Indent using two spaces 
+set shiftwidth=2 " When shifting, indent using two spaces
 set softtabstop=2
 set expandtab  " Convert tabs to spaces
 set colorcolumn=120 " Set ruler
@@ -30,8 +30,10 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ } 
-" Let indent manual
+  " Polyglot: Let indent manual
 let g:polyglot_disabled = ['autoindent']
+  " Fzf: Custom fzf window
+let g:fzf_layout = { 'down': '~40%' }
   " Gruvbox: Activate Gruvbox hard dark mode
 let g:gruvbox_contrast_dark = 'hard'
   " Gruvbox: Apply Gruvbox theme

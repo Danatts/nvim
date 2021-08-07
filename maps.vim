@@ -14,4 +14,4 @@ inoremap jk <ESC>
 vnoremap jk <ESC>
 cnoremap jk <ESC>
 " Search a file with fzf
-nnoremap <C-F> :Files<CR>
+nnoremap <C-F> :GFiles<CR>
