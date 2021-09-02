@@ -24,6 +24,8 @@ Plug 'morhetz/gruvbox'
 " File explorer + Git status 
 Plug 'preservim/nerdtree' |
       \ Plug 'Xuyuanp/nerdtree-git-plugin'
+" Syntax highlights to NERDTree files
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Files icons
 Plug 'ryanoasis/vim-devicons' 
 

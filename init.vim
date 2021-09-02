@@ -26,6 +26,8 @@ set colorcolumn=120 " Set ruler
   " NERDTree: Close NERDTree if it is the last buffer open
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
+  " NERDTree: Show hidden files 
+let NERDTreeShowHidden=1
   " Lightline: Status line theme
 let g:lightline = {
       \ 'colorscheme': 'wombat',
