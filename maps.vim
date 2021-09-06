@@ -13,5 +13,5 @@ nnoremap <C-P> :LLPStartPreview<CR>
 inoremap jk <ESC>
 vnoremap jk <ESC>
 cnoremap jk <ESC>
-" Search a file with fzf
+" Search a file with fzf (only if it is already added to GIT)
 nnoremap <C-F> :GFiles<CR>
