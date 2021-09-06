@@ -72,7 +72,7 @@ An example:
 :CocInstall coc-json coc-tsserver
 ```
 
-3. This repository includes some maps that you can check and modify in the maps.vim file.
+3. This repository includes some maps and plugins configuration that you can check and modify in the maps.vim and init.vim files.
 
 ### Screenshots 
 ![img02](src/img02.png)
