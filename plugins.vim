@@ -6,10 +6,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Close tags
 Plug 'alvan/vim-closetag'
-" LaTeX syntax highlight
-Plug 'lervag/vimtex' 
-" LaTeX PDF Preview
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' } 
 " Auto pairs 
 Plug 'jiangmiao/auto-pairs'
 " Live server

@@ -1,6 +1,6 @@
 # NVimConfig
 
-A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish. It has a gruvbox color scheme style and it is also oriented to LaTeX edition.
+A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish. All with a gruvbox color scheme style.
 
 ![ScreenShot](src/img01.png)
 
@@ -8,8 +8,6 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 - Polyglot package: [vim-polyglo](https://github.com/sheerun/vim-polyglot)
 - Auto completion: [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 - Close HTML tags: [alvan/vim-closetag](https://github.com/alvan/vim-closetag)
-- LaTeX syntax highlight: [lervag/vimtex](https://github.com/lervag/vimtex)
-- LaTeX PDF Preview: [xuhdev/vim-latex-live-preview](https://github.com/xuhdev/vim-latex-live-preview)
 - Auto pairs: [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - Live web server: [turbio/bracey.vim](https://github.com/turbio/bracey.vim)
 - Light status bar: [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
