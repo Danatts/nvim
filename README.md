@@ -72,5 +72,5 @@ An example:
 
 3. This repository includes some maps and plugins configuration that you can check and modify in the maps.vim and init.vim files.
 
-### Screenshots 
+### Screenshots
 ![img02](src/img02.png)
