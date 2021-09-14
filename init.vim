@@ -32,6 +32,8 @@ let NERDTreeShowHidden=1
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ } 
+  " CloseTag: Close tag in these extensions
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.js'
   " Polyglot: Let indent manual
 let g:polyglot_disabled = ['autoindent']
   " Fzf: Custom fzf window
