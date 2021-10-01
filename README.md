@@ -2,7 +2,7 @@
 
 A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish. All with a gruvbox color scheme style.
 
-![ScreenShot](src/img01.png)
+![ScreenShot](doc/img01.png)
 
 ## Plugins used
 - Polyglot package: [vim-polyglo](https://github.com/sheerun/vim-polyglot)
@@ -73,4 +73,4 @@ An example:
 3. This repository includes some maps and plugins configuration that you can check and modify in the maps.vim and init.vim files.
 
 ### Screenshots 
-![img02](src/img02.png)
+![img02](doc/img02.png)
