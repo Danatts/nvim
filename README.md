@@ -38,7 +38,7 @@ sudo apt install neovim
 mkdir ~/.config/nvim
 ```
 
-3. Install vim-plug
+3. Install [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -50,7 +50,12 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 git clone https://github.com/Danatts/NVimConfig.git
 ```
 
-Then, just click ENTER to all dialogues that appear.
+5. Run `nvim` on the terminal to initialize Neovim and click Enter to everything you are asked for until has
+   initialized
+
+6. Type `PlugInstall` on command mode in order to install the plugins.
+
+7. Close Neovim and open again to see the changes.
 
 ### To take into account
 
