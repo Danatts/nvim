@@ -1,12 +1,11 @@
 " GENERAL
-set title  " Muestra el nombre del archivo en la ventana de la terminal
-set number  relativenumber " Muestra los números de las líneas
-set cursorline  " Resalta la línea actual
-set mouse=a  " Permite la integración del mouse 
+set title  " Show the name of the file on the window's title 
+set number  relativenumber " Show the numbers of the lines (relative to position) 
+set cursorline  " Highlight current line
+set mouse=a  " Allows mouse integration
 set hidden  " Permitir cambiar de buffers sin tener que guardarlos
-set spelllang=en,es " Revisión ortográfica
-set spell " Activa la revisión ortográfica
-set termguicolors " Active true colors in terminal"
+set spell spelllang=en,es " Spell correction (English and Spanish)
+set termguicolors " Active true colors in terminal
 set clipboard+=unnamedplus " Copy on clipboard
 "set autochdir " Automatically change the current directory
 
