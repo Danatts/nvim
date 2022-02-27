@@ -7,8 +7,6 @@ nnoremap <C-H> <C-W>h
 nnoremap <C-I> gg=G
 " Open NERDTree
 nnoremap <C-O> :NERDTreeToggle<CR>
-" Live Server
-nnoremap <C-B> :Bracey<CR>
 " Return to normal mode when in insert mode, visual mode and command mode
 inoremap jk <ESC>
 vnoremap jk <ESC>
