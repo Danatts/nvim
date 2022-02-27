@@ -32,7 +32,7 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 sudo apt install neovim
 ```
 
-2. Create directory for Neovim config
+2. Create directory for Neovim configuration
 
 ```
 mkdir ~/.config/nvim
@@ -47,7 +47,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 4. Clone this repository in .config/nvim folder
 
 ```
-git clone https://github.com/Danatts/NVimConfig.git
+git clone https://github.com/Danatts/nvim.git
 ```
 
 5. Run `nvim` on the terminal to initialize Neovim and click Enter to everything you are asked for until has
