@@ -1,4 +1,4 @@
-# NVimConfig
+# NVIM basic configuration 
 
 A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish. All with a gruvbox color scheme style.
 
