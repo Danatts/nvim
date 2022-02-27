@@ -32,10 +32,10 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 sudo apt install neovim
 ```
 
-2. Create directory for Neovim configuration
+2. Clone this repository in .config/ folder
 
 ```
-mkdir ~/.config/nvim
+git clone https://github.com/Danatts/nvim.git
 ```
 
 3. Install [vim-plug](https://github.com/junegunn/vim-plug)
@@ -44,18 +44,12 @@ mkdir ~/.config/nvim
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-4. Clone this repository in .config/nvim folder
-
-```
-git clone https://github.com/Danatts/nvim.git
-```
-
-5. Run `nvim` on the terminal to initialize Neovim and click Enter to everything you are asked for until has
+4. Run `nvim` on the terminal to initialize Neovim and click Enter to everything you are asked for until has
    initialized
 
-6. Type `PlugInstall` on command mode in order to install the plugins.
+5. Type `PlugInstall` on command mode in order to install the plugins.
 
-7. Close Neovim and open again to see the changes.
+6. Close Neovim and open again to see the changes.
 
 ### To take into account
 
