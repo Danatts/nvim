@@ -13,13 +13,13 @@ set clipboard+=unnamedplus " Copy on clipboard
 set wrap " Wrap lines
 set ignorecase  " Ignore uppercase on search
 set smartcase  " Do not ignore uppercase if the search has it
-set textwidth=119 " Adjust the text to a max of 120 columns
+set textwidth=120 " Adjust the text to a max of 120 columns
 set autoindent " New lines inherit the indentation of previous lines
 set tabstop=2 " Indent using two spaces 
 set shiftwidth=2 " When shifting, indent using two spaces
 set softtabstop=2
 set expandtab  " Convert tabs to spaces
-set colorcolumn=120 " Set ruler
+set colorcolumn=121 " Set ruler
 
 " PLUGINS
   " NERDTree: Close NERDTree if it is the last buffer open
