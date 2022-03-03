@@ -5,8 +5,9 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 ![ScreenShot](doc/img01.png)
 
 ## Plugins used
-- Polyglot package: [vim-polyglo](https://github.com/sheerun/vim-polyglot)
+- Polyglot package: [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 - Auto completion: [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+- Editor config: [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)
 - Close HTML tags: [alvan/vim-closetag](https://github.com/alvan/vim-closetag)
 - Auto pairs: [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - Live web server: [turbio/bracey.vim](https://github.com/turbio/bracey.vim)
@@ -14,9 +15,9 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 - File filter: [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)
 - Gruvbox theme: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 - File explorer: [preservim/nerdtree](https://github.com/preservim/nerdtree)
-- Files highlights: [tiagofumo/vim-nerdtree-syntax.highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
-- Git status: [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
+- Files highlights: [tiagofumo/vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
 - Files icons: [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
+- Git status: [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 
 ## Requirements
 
@@ -32,7 +33,7 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 sudo apt install neovim
 ```
 
-2. Clone this repository in .config/ folder
+2. Clone this repository in your .config/ folder
 
 ```
 git clone https://github.com/Danatts/nvim.git
@@ -45,7 +46,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 ```
 
 4. Run `nvim` on the terminal to initialize Neovim and click Enter to everything you are asked for until has
-   initialized
+initialized
 
 5. Type `PlugInstall` on command mode in order to install the plugins.
 
@@ -53,7 +54,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 ### To take into account
 
-1. You can copy text below to download a standard font for files icons plugin. 
+1. You can copy the text below to download a standard font for files icons plugin. 
 
 ```
 mkdir -p ~/.local/share/fonts
@@ -69,7 +70,7 @@ An example:
 :CocInstall coc-json coc-tsserver
 ```
 
-3. This repository includes some maps and plugins configuration that you can check and modify in the maps.vim and init.vim files.
+3. This repository includes some maps and plugins configuration that you can check and modify in maps.vim and init.vim files.
 
 ### Screenshots 
 ![img02](doc/img02.png)

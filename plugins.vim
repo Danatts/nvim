@@ -4,6 +4,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'sheerun/vim-polyglot'
 " Auto completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Editor config
+Plug 'editorconfig/editorconfig-vim'
 " Close tags
 Plug 'alvan/vim-closetag'
 " Auto pairs 
