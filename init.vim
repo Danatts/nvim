@@ -32,7 +32,7 @@ let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ } 
   " CloseTag: Close tag in these extensions
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.js, *.ejs'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.js, *.ejs, *.jsx'
   " Polyglot: Let indent manual
 let g:polyglot_disabled = ['autoindent']
   " Fzf: Custom fzf window
@@ -44,7 +44,6 @@ autocmd vimenter * ++nested colorscheme gruvbox
 
 " Call templates
 autocmd BufNewFile *.html 0r ~/.config/nvim/templates/html.skel
-autocmd BufNewFile *.tex 0r ~/.config/nvim/templates/tex.skel
 
 " Link external files 
 source $HOME/.config/nvim/plugins.vim
