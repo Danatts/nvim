@@ -1,6 +1,6 @@
 # NVIM basic configuration 
 
-A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish. All with a gruvbox color scheme style.
+A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish. All with a fantastic gruvbox color scheme style.
 
 ![ScreenShot](doc/img01.png)
 
@@ -13,6 +13,7 @@ A standard configuration for Neovim in Linux with the basic elements for a text 
 - Live web server: [turbio/bracey.vim](https://github.com/turbio/bracey.vim)
 - Light status bar: [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
 - File filter: [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)
+- Emmet: [mattn/emmet-vim](https://github.com/mattn/emmet-vim)
 - Gruvbox theme: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 - File explorer: [preservim/nerdtree](https://github.com/preservim/nerdtree)
 - Files highlights: [tiagofumo/vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
