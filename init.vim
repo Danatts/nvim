@@ -1,6 +1,6 @@
 " GENERAL
 set title  " Show the name of the file on the window's title 
-set number  relativenumber " Show the numbers of the lines (relative to position) 
+set number relativenumber " Show the numbers of the lines (relative to position) 
 set cursorline  " Highlight current line
 set mouse=a  " Allows mouse integration
 set hidden  " Change buffers without saving them
@@ -10,6 +10,8 @@ set clipboard+=unnamedplus " Copy on clipboard
 "set autochdir " Automatically change the current directory
 
 " EDITOR
+syntax on
+set background 
 set wrap " Wrap lines
 set ignorecase  " Ignore uppercase on search
 set smartcase  " Do not ignore uppercase if the search has it
@@ -31,15 +33,17 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " NERDTree: Show hidden files 
 let NERDTreeShowHidden=1
 " Lightline: Status line theme
-let g:lightline = {'colorscheme': 'wombat'} 
+let g:lightline = {'colorscheme': 'one'} 
 " CloseTag: Close tag in these extensions
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.js, *.ejs, *.jsx'
 " Fzf: Custom fzf window
 let g:fzf_layout = { 'down': '~40%' }
 " Gruvbox: Activate Gruvbox hard dark mode
-let g:gruvbox_contrast_dark = 'hard'
+" let g:gruvbox_contrast_dark = 'hard'
 " Gruvbox: Apply Gruvbox theme
-autocmd vimenter * ++nested colorscheme gruvbox
+" autocmd vimenter * ++nested colorscheme gruvbox
+" One: Apply Onedark theme
+autocmd vimenter * ++nested colorscheme onedark
 
 " TEMPLATES
 autocmd BufNewFile *.html 0r ~/.config/nvim/templates/html.skel

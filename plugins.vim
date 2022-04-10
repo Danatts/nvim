@@ -21,6 +21,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'mattn/emmet-vim'
 " Gruvbox theme
 Plug 'morhetz/gruvbox' 
+" Onedark them
+Plug 'joshdick/onedark.vim'
 " File explorer + Git status 
 Plug 'preservim/nerdtree' |
       \ Plug 'Xuyuanp/nerdtree-git-plugin'
