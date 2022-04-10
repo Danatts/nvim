@@ -31,13 +31,9 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " NERDTree: Show hidden files 
 let NERDTreeShowHidden=1
 " Lightline: Status line theme
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ } 
+let g:lightline = {'colorscheme': 'wombat'} 
 " CloseTag: Close tag in these extensions
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.js, *.ejs, *.jsx'
-" Polyglot: Let indent manual
-let g:polyglot_disabled = ['autoindent']
 " Fzf: Custom fzf window
 let g:fzf_layout = { 'down': '~40%' }
 " Gruvbox: Activate Gruvbox hard dark mode
@@ -45,9 +41,9 @@ let g:gruvbox_contrast_dark = 'hard'
 " Gruvbox: Apply Gruvbox theme
 autocmd vimenter * ++nested colorscheme gruvbox
 
-" Call templates
+" TEMPLATES
 autocmd BufNewFile *.html 0r ~/.config/nvim/templates/html.skel
 
-" Link external files 
+" EXTERNAL FILES 
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/maps.vim
