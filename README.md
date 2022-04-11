@@ -2,9 +2,10 @@
 
 A standard configuration for Neovim in Linux with the basic elements for a text editor with Git integration and language correction to English and Spanish.
 
-Also, you can choose between **gruvbox** or **onedark** theme.
-
+## Themes included
+Gruvbox
 ![ScreenShot](doc/gruvbox01.png)
+Onedark
 ![ScreenShot](doc/onedark01.png)
 
 
@@ -51,8 +52,7 @@ git clone https://github.com/Danatts/nvim.git
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-4. Run `nvim` on the terminal to initialize Neovim and click Enter to everything you are asked for until has
-initialized
+4. Run `nvim` on the terminal to initialize Neovim and press `enter` until vim has started. 
 
 5. Type `PlugInstall` on command mode in order to install the plugins.
 
@@ -60,14 +60,7 @@ initialized
 
 ### To take into account
 
-1. You can copy the text below to download a standard font for files icons plugin. 
-
-```
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
-```
-
-2. Check the [Language Server List](https://github.com/neoclide/coc.nvim/wiki/Language-servers) to download CoC
+1. Check the [Language Server List](https://github.com/neoclide/coc.nvim/wiki/Language-servers) to download CoC
 extensions.
 
 An example:
@@ -75,8 +68,3 @@ An example:
 ```
 :CocInstall coc-json coc-tsserver
 ```
-
-3. This repository includes some maps and plugins configuration that you can check and modify in maps.vim and init.vim files.
-
-### Screenshots 
-![gruvbox02](doc/gruvbox02.png)

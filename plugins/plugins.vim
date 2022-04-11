@@ -17,11 +17,11 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " Light status bar
 Plug 'itchyny/lightline.vim' 
-" Emmet: Improve HTML and CSS workflow
+" Improve HTML and CSS workflow
 Plug 'mattn/emmet-vim'
 " Gruvbox theme
 Plug 'morhetz/gruvbox' 
-" Onedark them
+" Onedark theme
 Plug 'joshdick/onedark.vim'
 " File explorer + Git status 
 Plug 'preservim/nerdtree' |
