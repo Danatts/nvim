@@ -43,7 +43,7 @@ sudo apt install neovim
 2. Clone this repository in your .config/ folder
 
 ```
-git clone https://github.com/Danatts/nvim.git
+git clone https://github.com/Danatts/nvim.git ~/.config/nvim --depth 1
 ```
 
 3. Install [vim-plug](https://github.com/junegunn/vim-plug)
@@ -60,8 +60,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 ### To take into account
 
-1. Check the [Language Server List](https://github.com/neoclide/coc.nvim/wiki/Language-servers) to download CoC
-extensions.
+1. Check the [Language Server List](https://github.com/neoclide/coc.nvim/wiki/Language-servers) to download CoC extensions.
 
 An example:
 
