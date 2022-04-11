@@ -40,7 +40,7 @@ Onedark
 sudo apt install neovim
 ```
 
-2. Clone this repository in your .config/ folder
+2. Clone this repository
 
 ```
 git clone https://github.com/Danatts/nvim.git ~/.config/nvim --depth 1
