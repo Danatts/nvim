@@ -34,5 +34,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox' 
 " Onedark
 Plug 'joshdick/onedark.vim'
+" Darcula
+Plug 'doums/darcula'
 
 call plug#end()
