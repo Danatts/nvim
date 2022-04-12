@@ -1,5 +1,7 @@
 " Save document
 nnoremap <C-S> :w<CR>
+" Save all document
+nnoremap <C-A> :wa<CR>
 " Buffer navigation 
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
@@ -15,3 +17,7 @@ cnoremap jk <ESC>
 nnoremap <C-T> :tabedit<CR>
 " Close actual tab
 nnoremap <C-W> :tabclose<CR>
+" Switch next tab
+nnoremap <F2> gt
+" Switch previous tab
+nnoremap <F1> gT
