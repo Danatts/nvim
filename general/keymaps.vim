@@ -1,3 +1,5 @@
+" Save document
+nnoremap <C-S> :w<CR>
 " Buffer navigation 
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
@@ -12,4 +14,4 @@ cnoremap jk <ESC>
 " Open empty tab
 nnoremap <C-T> :tabedit<CR>
 " Close actual tab
-nnoremap <C-C> :tabclose<CR>
+nnoremap <C-W> :tabclose<CR>
