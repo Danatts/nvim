@@ -1,6 +1,6 @@
 # NVIM basic configuration 
 
-![ScreenShot](doc/gruvbox02.png)
+![ScreenShot](doc/gruvbox01.png)
 ![ScreenShot](doc/onedark01.png)
 
 ## Requirements
@@ -50,7 +50,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 - Gruvbox theme: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 - Onedark theme: [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
 
-### To take into account
+## To take into account
 1. Check the [Language Server List](https://github.com/neoclide/coc.nvim/wiki/Language-servers) to download CoC extensions.
 
 An example:
