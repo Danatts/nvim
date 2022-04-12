@@ -9,3 +9,7 @@ nnoremap <C-I> gg=G
 inoremap jk <ESC>
 vnoremap jk <ESC>
 cnoremap jk <ESC>
+" Open empty tab
+nnoremap <C-T> :tabedit<CR>
+" Close actual tab
+nnoremap <C-C> :tabclose<CR>
