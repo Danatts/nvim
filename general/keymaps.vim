@@ -1,3 +1,5 @@
+" Quit
+nnoremap <C-Q> :q<CR>
 " Save document
 nnoremap <C-S> :w<CR>
 " Save all document
