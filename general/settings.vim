@@ -5,7 +5,7 @@ set number relativenumber " Show the numbers of the lines (relative to position)
 set cursorline  " Highlight current line
 set mouse=a  " Allows mouse integration
 set hidden  " Change buffers without saving them
-set spell spelllang=en,es " Spell correction (English and Spanish)
+"set spell spelllang=en,es " Spell correction (English and Spanish)
 set termguicolors " Active true colors in terminal
 set clipboard+=unnamedplus " Copy on clipboard
 "set autochdir " Automatically change the current directory

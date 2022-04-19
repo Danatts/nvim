@@ -10,6 +10,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'alvan/vim-closetag'
 " Auto pairs 
 Plug 'jiangmiao/auto-pairs'
+" Better comments
+Plug 'jbgutierrez/vim-better-comments'
 " Live server
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'} 
 " Fzf (file filter)

@@ -9,6 +9,7 @@ source $HOME/.config/nvim/themes/onedark.vim
 " PLUGINS
 source $HOME/.config/nvim/plugins/configs/fzf.vim
 source $HOME/.config/nvim/plugins/configs/nerdtree.vim
+source $HOME/.config/nvim/plugins/configs/vim-better-comments.vim
 source $HOME/.config/nvim/plugins/configs/vim-closetag.vim
 
 " TEMPLATES
