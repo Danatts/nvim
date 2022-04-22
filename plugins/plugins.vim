@@ -10,6 +10,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'alvan/vim-closetag'
 " Auto pairs 
 Plug 'jiangmiao/auto-pairs'
+" Handle surrounding
+Plug 'tpope/vim-surround'
 " Better comments
 Plug 'jbgutierrez/vim-better-comments'
 " Live server

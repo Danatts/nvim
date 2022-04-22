@@ -49,6 +49,7 @@ Close Neovim and open again to see the changes.
 - Files icons: [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - Git branch on status bar: [itchyny/vim-gitbranch](https://github.com/itchyny/vim-gitbranch)
 - Git status: [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
+- Handle surrounding: [tpope/vim-surround](https://github.com/tpope/vim-surround)
 - Live web server: [turbio/bracey.vim](https://github.com/turbio/bracey.vim)
 - Light status bar: [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
 - Polyglot package: [vim-polyglot](https://github.com/sheerun/vim-polyglot)
