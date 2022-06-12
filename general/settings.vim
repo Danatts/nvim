@@ -20,5 +20,5 @@ set softtabstop=2
 set expandtab  " Convert tabs to spaces
 set colorcolumn=101 " Set ruler
 set foldmethod=indent " Syntax highlighting items specify folds
-set foldcolumn=1 " 1 column at left to indicate folding
+"set foldcolumn=2 " Number of columns at left to indicate folding
 set foldlevelstart=99 " No folding when is open
