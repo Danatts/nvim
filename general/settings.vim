@@ -22,3 +22,4 @@ set colorcolumn=101 " Set ruler
 set foldmethod=indent " Syntax highlighting items specify folds
 "set foldcolumn=2 " Number of columns at left to indicate folding
 set foldlevelstart=99 " No folding when is open
+set completeopt=menu,menuone,noselect

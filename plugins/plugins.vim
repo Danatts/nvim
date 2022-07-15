@@ -7,26 +7,26 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'windwp/nvim-autopairs'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
-
-"" Polyglot package
-"Plug 'sheerun/vim-polyglot'
-"" Auto completion
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"" Editor config
-"Plug 'editorconfig/editorconfig-vim'
-"" Close tags
-"Plug 'alvan/vim-closetag'
-"" Handle surrounding
-"Plug 'tpope/vim-surround'
-"" Better comments
-"Plug 'jbgutierrez/vim-better-comments'
-"" Live server
-"Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'} 
-"" Fzf (file filter)
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-"Plug 'junegunn/fzf.vim'
-"" Improve HTML and CSS workflow
-"Plug 'mattn/emmet-vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/telescope.nvim'
+Plug 'jremmen/vim-ripgrep'
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+" Close tags
+Plug 'alvan/vim-closetag'
+" Handle surrounding
+Plug 'tpope/vim-surround'
+" Improve HTML and CSS workflow
+Plug 'mattn/emmet-vim'
 
 " THEMES
 " Gruvbox

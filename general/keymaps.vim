@@ -1,5 +1,4 @@
 " GENERAL
-
 " Exit
 nnoremap <C-Q> :q<CR>
 " Save document
@@ -21,12 +20,17 @@ cnoremap kj <ESC>
 nnoremap <C-T> :tabedit<CR>
 " Close actual tab
 nnoremap <C-W> :bd<CR>
-" Switch next tab
-nnoremap <F2> gt
-" Switch previous tab
-nnoremap <F1> gT
 
 " PLUGINS
+" Bufferline
+nnoremap <C-N> :BufferLineCycleNext<CR>
+nnoremap <C-B> :BufferLineCyclePrev<CR>
 
-" Toggle file explorer
+" NVimTree
 nnoremap <C-O> :NvimTreeToggle<CR>
+
+" Telescope
+nnoremap ff :Telescope find_files<cr>
+nnoremap fg :Telescope live_grep<cr>
+nnoremap fb :Telescope buffers<cr>
+nnoremap fh :Telescope help_tags<cr>

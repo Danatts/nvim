@@ -1,8 +1,5 @@
 # NVIM basic configuration
 
-![ScreenShot](doc/gruvbox01.png)
-![ScreenShot](doc/onedark01.png)
-
 ## Requirements
 
 - Git
@@ -11,11 +8,10 @@
 
 ## Installation guide
 
-Install Neovim
+Install Neovim 
 
-```sh
-sudo apt install neovim
-```
+[Official repository](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
 
 Clone this repository
 
@@ -58,14 +54,3 @@ Close Neovim and open again to see the changes.
 
 - Gruvbox theme: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 - Onedark theme: [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
-
-## To take into account
-
-Check the [Language Server List](https://github.com/neoclide/coc.nvim/wiki/Language-servers)
-to download CoC extensions.
-
-An example:
-
-```sh
-:CocInstall coc-json coc-tsserver
-```
