@@ -50,3 +50,6 @@ require('lspconfig')['cssmodules_ls'].setup {
 require('lspconfig')['marksman'].setup {
   capabilities = capabilities
 }
+require('lspconfig')['dockerls'].setup {
+  capabilities = capabilities
+}
