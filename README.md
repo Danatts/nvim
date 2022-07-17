@@ -1,16 +1,19 @@
-# NVIM basic configuration
+# NEOVIM basic IDE
+
+This is a basic configuration to set up neovim as a IDE with basic functionalities and a good look interface.
+It includes features like file finder, folder explorer, completion, syntax highlight, etc.
 
 ## Requirements
 
-- Git
-- Nodejs
-- Npm
+- neovim >=0.7.0
+- git
+- npm
 
 ## Installation guide
 
-Install Neovim 
+Install Neovim
 
-[Official repository](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+[Official guide](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
 
 Clone this repository
@@ -29,28 +32,61 @@ Run `nvim` on the terminal to initialize Neovim and press `enter` until vim has 
 
 Type `PlugInstall` on command mode in order to install the plugins.
 
-Close Neovim and open again to see the changes.
+Restart Neovim to see the changes.
+
+If you have any problem with a plugin check it documentation. Below you will find a list with all
+the used plugins
+
+## Add a new language
+
+1. Install the language in `nvim-treesitter`.
+
+```sh
+:TSInstall <language_to_install>
+```
+
+2. Add the language server in [ lsp installer file ](lua/config/lsp-installer.lua).
+
+```sh
+require'lspconfig'.<language_server_to_install>.setup{}
+```
+
+3. Add the language server in [ lsp installer file ](lua/config/nvim-cmp.lua) for completion at
+   the end of the file.
+
+
+```sh
+require('lspconfig')['<language_server_to_install>'].setup {
+  capabilities = capabilities
+}
+```
+
+4. Install the language server.
+
+```sh
+:LspInstall <language_server_to_install>
+```
 
 ## Plugins used
 
-- Auto completion: [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
-- Auto pairs: [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
-- Better comments: [jbgutierrez/vim-better-comments](https://github.com/jbgutierrez/vim-better-comments)
-- Close HTML tags: [alvan/vim-closetag](https://github.com/alvan/vim-closetag)
-- Editor config: [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)
-- Emmet: [mattn/emmet-vim](https://github.com/mattn/emmet-vim)
-- File explorer: [preservim/nerdtree](https://github.com/preservim/nerdtree)
-- File filter: [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)
-- Files highlights: [tiagofumo/vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
-- Files icons: [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
-- Git branch on status bar: [itchyny/vim-gitbranch](https://github.com/itchyny/vim-gitbranch)
-- Git status: [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
-- Handle surrounding: [tpope/vim-surround](https://github.com/tpope/vim-surround)
-- Live web server: [turbio/bracey.vim](https://github.com/turbio/bracey.vim)
-- Light status bar: [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
-- Polyglot package: [vim-polyglot](https://github.com/sheerun/vim-polyglot)
-
-## Themes
-
-- Gruvbox theme: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
-- Onedark theme: [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
+- [ kyazdani42/nvim-web-devicons ](https://github.com/kyazdani42/nvim-web-devicons)
+- [ kyazdani42/nvim-tree.lua ](https://github.com/kyazdani42/nvim-tree.lua)
+- [ lukas-reineke/indent-blankline.nvim ](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [ norcalli/nvim-colorizer.lua ](https://github.com/norcalli/nvim-colorizer.lua)
+- [ windwp/nvim-autopairs ](https://github.com/windwp/nvim-autopairs)
+- [ nvim-lualine/lualine.nvim ](https://github.com/nvim-lualine/lualine.nvim)
+- [ akinsho/bufferline.nvim ](https://github.com/akinsho/bufferline.nvim)
+- [ nvim-treesitter/nvim-treesitter ](https://github.com/nvim-treesitter/nvim-treesitter)
+- [ nvim-lua/plenary.nvim ](https://github.com/nvim-lua/plenary.nvim)
+- [ nvim-lua/popup.nvim ](https://github.com/nvim-lua/popup.nvim)
+- [ nvim-lua/telescope.nvim ](https://github.com/nvim-telescope/telescope.nvim)
+- [ jremmen/vim-ripgrep ](https://github.com/jremmen/vim-ripgrep)
+- [ neovim/nvim-lspconfig ](https://github.com/neovim/nvim-lspconfig)
+- [ williamboman/nvim-lsp-installer ](https://github.com/williamboman/nvim-lsp-installer)
+- [ hrsh7th/nvim-cmp ](https://github.com/hrsh7th/nvim-cmp)
+- [ L3MON4D3/LuaSnip ](https://github.com/L3MON4D3/LuaSnip)
+- [ alvan/vim-closetag ](https://github.com/alvan/vim-closetag)
+- [ tpope/vim-surround ](https://github.com/tpope/vim-surround)
+- [ mattn/emmet-vim ](https://github.com/mattn/emmet-vim)
+- [ morhetz/gruvbox ](https://github.com/morhetz/gruvbox)
+- [ joshdick/onedark.vim ](https://github.com/joshdick/onedark.vim)
