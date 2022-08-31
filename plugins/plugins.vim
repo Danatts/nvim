@@ -38,7 +38,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 " Snippet
 Plug 'L3MON4D3/LuaSnip'
 " Close tags
-Plug 'alvan/vim-closetag'
+Plug 'windwp/nvim-ts-autotag'
 " Handle surrounding
 Plug 'tpope/vim-surround'
 " Improve HTML and CSS workflow

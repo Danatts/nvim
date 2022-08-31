@@ -34,7 +34,7 @@ Type `PlugInstall` on command mode in order to install the plugins.
 
 Restart Neovim to see the changes.
 
-If you have any problem with a plugin check it documentation. Below you will find a list with all
+If you have any problem with a plugin check its documentation. Below you will find a list with all
 the used plugins
 
 ## Add a new language
@@ -51,7 +51,7 @@ the used plugins
 require'lspconfig'.<language_server_to_install>.setup{}
 ```
 
-3. Add the language server in [ lsp installer file ](lua/config/nvim-cmp.lua) for completion at
+3. Add the language server in [ cmp file ](lua/config/nvim-cmp.lua) for completion at
    the end of the file.
 
 

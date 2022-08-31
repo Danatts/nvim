@@ -6,9 +6,6 @@ source $HOME/.config/nvim/plugins/plugins.vim
 " THEMES
 source $HOME/.config/nvim/themes/gruvbox.vim
 
-" PLUGINS
-source $HOME/.config/nvim/plugins/configs/vim-closetag.vim
-
 " LUA CONFIGS
 lua require('configs.autopairs')
 lua require('configs.bufferline')

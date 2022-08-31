@@ -20,4 +20,7 @@ require'nvim-treesitter.configs'.setup {
     "markdown",
     "regex",
   },
+  autotag = {
+    enable = true,
+  },
 }
