@@ -85,7 +85,7 @@ require('lspconfig')['<language_server_to_install>'].setup {
 - [ williamboman/nvim-lsp-installer ](https://github.com/williamboman/nvim-lsp-installer)
 - [ hrsh7th/nvim-cmp ](https://github.com/hrsh7th/nvim-cmp)
 - [ L3MON4D3/LuaSnip ](https://github.com/L3MON4D3/LuaSnip)
-- [ alvan/vim-closetag ](https://github.com/alvan/vim-closetag)
+- [ windwp/nvim-ts-autotag ](https://github.com/windwp/nvim-ts-autotag)
 - [ tpope/vim-surround ](https://github.com/tpope/vim-surround)
 - [ mattn/emmet-vim ](https://github.com/mattn/emmet-vim)
 - [ morhetz/gruvbox ](https://github.com/morhetz/gruvbox)
