@@ -21,21 +21,15 @@ cmp.setup({
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   }, {
-    { name = 'buffer' },
-  })
+      { name = 'buffer' },
+    })
 })
 -- Setup lspconfig.
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 require('lspconfig')['quick_lint_js'].setup {
   capabilities = capabilities
 }
-require('lspconfig')['pyright'].setup {
-  capabilities = capabilities
-}
 require('lspconfig')['tsserver'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['html'].setup {
   capabilities = capabilities
 }
 require('lspconfig')['jsonls'].setup {
@@ -48,5 +42,11 @@ require('lspconfig')['cssmodules_ls'].setup {
   capabilities = capabilities
 }
 require('lspconfig')['marksman'].setup {
+  capabilities = capabilities
+}
+require('lspconfig')['html'].setup {
+  capabilities = capabilities
+}
+require('lspconfig')['pyright'].setup {
   capabilities = capabilities
 }

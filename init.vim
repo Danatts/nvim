@@ -11,10 +11,10 @@ lua require('configs.autopairs')
 lua require('configs.bufferline')
 lua require('configs.colorizer')
 lua require('configs.lualine')
-lua require('configs.lsp-installer')
+lua require('configs.mason')
 lua require('configs.nvim-cmp')
-lua require('configs.nvim-tree')
 lua require('configs.treesitter')
+lua require('configs.nvim-tree')
 
 " TEMPLATES
 autocmd BufNewFile *.html 0r ~/.config/nvim/templates/html.skel

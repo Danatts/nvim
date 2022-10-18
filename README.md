@@ -28,7 +28,7 @@ Install [vim-plug](https://github.com/junegunn/vim-plug)
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-Run `nvim` on the terminal to initialize Neovim and press `q`.
+Run `nvim` on the terminal to initialize Neovim and press `q` to exit warnings
 
 Type `PlugInstall` on command mode in order to install the plugins.
 
@@ -49,15 +49,7 @@ the used plugins
 :TSInstall <language_to_install>
 ```
 
-2. Add the language server in [ lsp installer file ](lua/config/lsp-installer.lua).
-
-```sh
-require'lspconfig'.<language_server_to_install>.setup{}
-```
-
-3. Add the language server in [ cmp file ](lua/config/nvim-cmp.lua) for completion at
-   the end of the file.
-
+2. Add the language server in nvim-cmp config file at the end of the file.
 
 ```sh
 require('lspconfig')['<language_server_to_install>'].setup {
@@ -65,7 +57,7 @@ require('lspconfig')['<language_server_to_install>'].setup {
 }
 ```
 
-4. Install the language server.
+3. Install the language server.
 
 ```sh
 :LspInstall <language_server_to_install>
@@ -108,8 +100,9 @@ Fuzzy finder
 LSP server configuration
 - [ neovim/nvim-lspconfig ](https://github.com/neovim/nvim-lspconfig)
 
-" LSP installer
-- [ williamboman/nvim-lsp-installer ](https://github.com/williamboman/nvim-lsp-installer)
+LSP installer
+- [  williamboman/mason.nvim ](https://github.com/williamboman/mason.nvim)
+- [  williamboman/ mason-lspconfig.nvim ](https://github.com/williamboman/mason-lspconfig.nvim)
 
 Completion
 - [ hrsh7th/nvim-cmp ](https://github.com/hrsh7th/nvim-cmp)
