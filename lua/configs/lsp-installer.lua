@@ -8,4 +8,3 @@ require'lspconfig'.jsonls.setup{}
 require'lspconfig'.cssls.setup{}
 require'lspconfig'.cssmodules_ls.setup{}
 require'lspconfig'.marksman.setup{}
-require'lspconfig'.dockerls.setup{}
