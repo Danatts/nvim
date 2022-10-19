@@ -48,8 +48,6 @@ Plug 'mattn/emmet-vim'
 " THEMES
 
 " Gruvbox
-Plug 'morhetz/gruvbox' 
-" Onedark
-Plug 'joshdick/onedark.vim'
+Plug 'sainnhe/gruvbox-material'
 
 call plug#end()

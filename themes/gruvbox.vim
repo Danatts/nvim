@@ -1,2 +1,3 @@
-let g:gruvbox_contrast_dark = 'hard'
-autocmd vimenter * ++nested colorscheme gruvbox
+let g:gruvbox_material_background = 'medium'
+let g:gruvbox_material_better_performance = 1
+colorscheme gruvbox-material
