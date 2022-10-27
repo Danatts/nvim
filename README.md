@@ -120,7 +120,7 @@ Improve HTML and CSS workflow
 - [ mattn/emmet-vim ](https://github.com/mattn/emmet-vim)
 
 Gruvbox
-- [ morhetz/gruvbox ](https://github.com/morhetz/gruvbox)
+- [ sainnhe/gruvbox-material ](https://github.com/sainnhe/gruvbox-material)
 
 OneDark
 - [ navarasu/onedark.nvim ](https://github.com/navarasu/onedark.nvim)
