@@ -49,5 +49,7 @@ Plug 'mattn/emmet-vim'
 
 " Gruvbox
 Plug 'sainnhe/gruvbox-material'
+" OneDark
+Plug 'navarasu/onedark.nvim'
 
 call plug#end()

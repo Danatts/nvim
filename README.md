@@ -122,5 +122,5 @@ Improve HTML and CSS workflow
 Gruvbox
 - [ morhetz/gruvbox ](https://github.com/morhetz/gruvbox)
 
-Onedark
-- [ joshdick/onedark.vim ](https://github.com/joshdick/onedark.vim)
+OneDark
+- [ navarasu/onedark.nvim ](https://github.com/navarasu/onedark.nvim)
