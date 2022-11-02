@@ -1,5 +1,5 @@
 let g:onedark_config = {
-    \ 'style': 'darker',
+    \ 'style': 'deep',
 \}
 colorscheme onedark
 
