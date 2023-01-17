@@ -11,6 +11,8 @@ cmp.setup({
     documentation = cmp.config.window.bordered(),
   },
   mapping = cmp.mapping.preset.insert({
+    ['<S-Tab>'] = cmp.mapping.select_prev_item(),
+    ['<Tab>'] = cmp.mapping.select_next_item(),
     ['<C-D>'] = cmp.mapping.scroll_docs(-4),
     ['<C-F>'] = cmp.mapping.scroll_docs(4),
     ['<C-Space>'] = cmp.mapping.complete(),
@@ -21,8 +23,8 @@ cmp.setup({
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   }, {
-    { name = 'buffer' },
-  })
+      { name = 'buffer' },
+    })
 })
 
 cmp.setup.cmdline(':', {
@@ -30,8 +32,8 @@ cmp.setup.cmdline(':', {
   sources = cmp.config.sources({
     { name = 'path' }
   }, {
-    { name = 'cmdline' }
-  })
+      { name = 'cmdline' }
+    })
 })
 
 -- Setup lspconfig.
