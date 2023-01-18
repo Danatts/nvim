@@ -12,7 +12,6 @@ require'nvim-treesitter.configs'.setup {
     "javascript",
     "json",
     "vim",
-    "lua",
     "python",
     "rust",
     "toml",

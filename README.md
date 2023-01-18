@@ -51,6 +51,8 @@ the used plugins
 
 2. Add the language server in nvim-cmp config file at the end of the file.
 
+[ Check the list for all languages servers available. ](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
+
 ```sh
 require('lspconfig')['<language_server_to_install>'].setup {
   capabilities = capabilities
