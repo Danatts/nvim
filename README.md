@@ -60,7 +60,7 @@ require('lspconfig')['<language_server_to_install>'].setup {
 3. Install the language server.
 
 ```sh
-:LspInstall <language_server_to_install>
+:MasonInstall <language_server_to_install>
 ```
 
 ## Plugins used
