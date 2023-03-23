@@ -24,7 +24,7 @@ Plug 'nvim-lua/popup.nvim'
 " Fuzzy finder
 Plug 'nvim-lua/telescope.nvim'
 Plug 'jremmen/vim-ripgrep'
-" LSP installer
+" LSP manager
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 " LSP server configuration

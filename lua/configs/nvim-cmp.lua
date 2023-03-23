@@ -35,36 +35,3 @@ cmp.setup.cmdline(':', {
       { name = 'cmdline' }
     })
 })
-
--- Setup lspconfig.
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
-require('lspconfig')['quick_lint_js'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['tsserver'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['jsonls'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['cssls'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['cssmodules_ls'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['html'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['marksman'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['pyright'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['rust_analyzer'].setup {
-  capabilities = capabilities
-}
-require('lspconfig')['taplo'].setup {
-  capabilities = capabilities
-}

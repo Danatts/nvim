@@ -13,6 +13,7 @@ lua require('configs.colorizer')
 lua require('configs.lualine')
 lua require('configs.mason')
 lua require('configs.nvim-cmp')
+lua require('configs.nvim-lspconfig')
 lua require('configs.treesitter')
 lua require('configs.nvim-tree')
 
