@@ -18,4 +18,6 @@ lua require('configs.treesitter')
 lua require('configs.nvim-tree')
 
 " TEMPLATES
-autocmd BufNewFile *.html 0r ~/.config/nvim/templates/html.skel
+autocmd BufNewFile *.html 0r ~/.config/nvim/templates/skeleton.html
+autocmd BufNewFile *.jsx 0r ~/.config/nvim/templates/skeleton.jsx
+autocmd BufNewFile *.tsx 0r ~/.config/nvim/templates/skeleton.jsx
