@@ -37,9 +37,8 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'saadparwaiz1/cmp_luasnip'
 " Snippet
-Plug 'L3MON4D3/LuaSnip'
-" Close tags
-Plug 'windwp/nvim-ts-autotag'
+Plug 'L3MON4D3/LuaSnip', {'do': 'make install_jsregexp'}
+Plug 'rafamadriz/friendly-snippets'
 " Handle surrounding
 Plug 'tpope/vim-surround'
 " Improve HTML and CSS workflow

@@ -12,14 +12,15 @@ set clipboard+=unnamedplus " Copy on clipboard
 set wrap " Wrap lines
 set ignorecase  " Ignore uppercase on search
 set smartcase  " Do not ignore uppercase if the search has it
-set textwidth=100 " Adjust the text to a max of 120 columns
+set textwidth=100 " Adjust the text to a max of X columns
 set autoindent " New lines inherit the indentation of previous lines
 set tabstop=2 " Indent using two spaces 
 set shiftwidth=2 " When shifting, indent using two spaces
 set softtabstop=2
 set expandtab  " Convert tabs to spaces
-set colorcolumn=101 " Set ruler
+set colorcolumn=101 " Set ruler at X column
 set foldmethod=indent " Syntax highlighting items specify folds
 "set foldcolumn=2 " Number of columns at left to indicate folding
 set foldlevelstart=99 " No folding when is open
 set completeopt=menu,menuone,noselect
+set backupcopy=yes " Write directly to the file. Necessary for ParcelJS to work

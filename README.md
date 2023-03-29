@@ -111,11 +111,8 @@ Completion
 
 Snippet
 - [ L3MON4D3/LuaSnip ](https://github.com/L3MON4D3/LuaSnip)
+- [ rafamadriz/friendly-snippets ](https://github.com/rafamadriz/friendly-snippets)
 
-Close tags
-- [ windwp/nvim-ts-autotag ](https://github.com/windwp/nvim-ts-autotag)
-
-Handle surrounding
 - [ tpope/vim-surround ](https://github.com/tpope/vim-surround)
 
 Improve HTML and CSS workflow
