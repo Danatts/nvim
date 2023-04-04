@@ -113,10 +113,14 @@ Snippet
 - [ L3MON4D3/LuaSnip ](https://github.com/L3MON4D3/LuaSnip)
 - [ rafamadriz/friendly-snippets ](https://github.com/rafamadriz/friendly-snippets)
 
+Surrounding
 - [ tpope/vim-surround ](https://github.com/tpope/vim-surround)
 
 Improve HTML and CSS workflow
 - [ mattn/emmet-vim ](https://github.com/mattn/emmet-vim)
+
+Autotag
+- [ windwp/nvim-ts-autotag ](https://github.com/windwp/nvim-ts-autotag)
 
 Gruvbox
 - [ sainnhe/gruvbox-material ](https://github.com/sainnhe/gruvbox-material)

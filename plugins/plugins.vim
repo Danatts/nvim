@@ -43,6 +43,8 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'tpope/vim-surround'
 " Improve HTML and CSS workflow
 Plug 'mattn/emmet-vim'
+" Autotag
+Plug 'windwp/nvim-ts-autotag'
 
 " THEMES
 
