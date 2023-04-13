@@ -2,7 +2,7 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 local lspconfig = require('lspconfig')
 
 lspconfig.quick_lint_js.setup {capabilities = capabilities, filetypes = {'javascript','javascriptreact','typescript','typescriptreact'}}
-lspconfig.tsserver.setup {capabilities = capabilities}
+lspconfig.tsserver.setup {capabilities = capabilities, filetypes = {'javascript','javascriptreact','typescript','typescriptreact'}}
 lspconfig.jsonls.setup {capabilities = capabilities}
 lspconfig.cssls.setup {capabilities = capabilities}
 lspconfig.cssmodules_ls.setup {capabilities = capabilities}
