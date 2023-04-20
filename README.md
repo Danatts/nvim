@@ -9,6 +9,8 @@ It includes features like file finder, folder explorer, completion, syntax highl
 - git
 - [A Nerdfont](https://github.com/ryanoasis/nerd-fonts)
 - A C compiler in your path and libstdc++ installed
+- Wayland users: `wl-clipboard`
+- X11 users: `xclip`
 
 ## Installation guide
 
