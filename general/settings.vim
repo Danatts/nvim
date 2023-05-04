@@ -17,7 +17,7 @@ set autoindent " New lines inherit the indentation of previous lines
 set tabstop=2 " Indent using two spaces 
 set shiftwidth=2 " When shifting, indent using two spaces
 set softtabstop=2
-set expandtab  " Convert tabs to spaces
+"set expandtab  " Convert tabs to spaces
 set colorcolumn=101 " Set ruler at X column
 set foldmethod=indent " Syntax highlighting items specify folds
 "set foldcolumn=2 " Number of columns at left to indicate folding
