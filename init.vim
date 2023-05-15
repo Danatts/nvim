@@ -16,6 +16,7 @@ lua require('configs.mason')
 lua require('configs.nvim-cmp')
 lua require('configs.nvim-lspconfig')
 lua require('configs.nvim-ts-autotag')
+lua require('configs.telescope')
 lua require('configs.treesitter')
 lua require('configs.nvim-tree')
 
