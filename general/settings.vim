@@ -1,4 +1,6 @@
 syntax on " Syntax highlighting
+filetype on
+filetype indent on
 set background=dark " Background scheme
 set title  " Show the name of the file on the window's title 
 set number relativenumber " Show the numbers of the lines (relative to position) 
