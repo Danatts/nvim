@@ -4,7 +4,8 @@ require('telescope').setup{
       "node_modules",
 			"target",
 			"autoload",
-			"build"
+			"build",
+			"dist"
     }
   }
 }
