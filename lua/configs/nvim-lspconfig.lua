@@ -5,10 +5,12 @@ lspconfig.quick_lint_js.setup {capabilities = capabilities, filetypes = {'javasc
 lspconfig.tsserver.setup {capabilities = capabilities}
 lspconfig.jsonls.setup {capabilities = capabilities}
 lspconfig.cssls.setup {capabilities = capabilities}
+lspconfig.tailwindcss.setup {capabilities = capabilities}
 lspconfig.html.setup {capabilities = capabilities}
 lspconfig.pyright.setup {capabilities = capabilities}
 lspconfig.rust_analyzer.setup {capabilities = capabilities}
 lspconfig.taplo.setup {capabilities = capabilities}
+lspconfig.bashls.setup {capabilities = capabilities}
 
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('UserLspConfig', {}),
