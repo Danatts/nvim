@@ -5,7 +5,7 @@ It includes features like file finder, folder explorer, completion, syntax highl
 
 ## Requirements
 
-- neovim >=0.7.0
+- neovim >=0.9.0
 - git
 - [A Nerdfont](https://github.com/ryanoasis/nerd-fonts)
 - A C compiler in your path and libstdc++ installed
