@@ -4,7 +4,7 @@ source $HOME/.config/nvim/general/keymaps.vim
 source $HOME/.config/nvim/plugins/plugins.vim
 
 " THEMES
-source $HOME/.config/nvim/themes/gruvbox.vim
+source $HOME/.config/nvim/themes/onedark.vim
 
 " LUA CONFIGS
 lua require('configs.autopairs')
