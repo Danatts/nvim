@@ -11,6 +11,7 @@ lspconfig.pyright.setup {capabilities = capabilities}
 lspconfig.rust_analyzer.setup {capabilities = capabilities}
 lspconfig.taplo.setup {capabilities = capabilities}
 lspconfig.bashls.setup {capabilities = capabilities}
+lspconfig.clangd.setup {capabilities = capabilities}
 
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('UserLspConfig', {}),
