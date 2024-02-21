@@ -1,0 +1,9 @@
+{
+  "bufferline.nvim": { "branch": "main", "commit": "d6cb9b7cac52887bcac65f8698e67479553c0748" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "821a7acd88587d966f7e464b0b3031dfe7f5680c" },
+  "lazy.nvim": { "branch": "main", "commit": "aedcd79811d491b60d0a6577a9c1701063c2a609" },
+  "lualine.nvim": { "branch": "master", "commit": "7d131a8d3ba5016229e8a1d08bf8782acea98852" },
+  "nvim-autopairs": { "branch": "master", "commit": "90f824d37c0cb079d2764927e73af77faa9ba0ef" },
+  "nvim-tree.lua": { "branch": "master", "commit": "030defdb6522f5f716d8201d20ca1a2baa57ca66" },
+  "nvim-web-devicons": { "branch": "master", "commit": "14ac5887110b06b89a96881d534230dac3ed134d" }
+}
