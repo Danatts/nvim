@@ -1,0 +1,25 @@
+local set = vim.opt
+
+set.autoindent = true                               -- New lines inherit the indentation of previous lines
+set.clipboard = "unnamedplus"                       -- Copy on clipboard
+set.colorcolumn = "81"                              -- Set ruler at X column
+set.cursorline = true                               -- Highlight current line
+set.background = "dark"                             -- Background scheme theme
+set.expandtab = true                                -- Convert tabs to spaces
+set.foldcolumn = "1"                                -- Number of columns at left to indicate folding
+set.foldlevelstart = 99                             -- No folding when is open
+set.foldmethod = "indent"                           -- Syntax highlighting items specify folds
+set.hidden = true                                   -- Change buffers without saving them
+set.ignorecase = true                               -- Ignore uppercase on search
+set.mouse = "a"                                     -- Allows mouse integration
+set.relativenumber = true                           -- Show the numbers of the lines (relative to position)
+set.shiftwidth = 2
+set.smartcase = true                                -- Do not ignore uppercase if the search has it
+set.completeopt = { "menu", "menuone", "noselect" } -- Insert mode completion
+set.softtabstop = 2
+set.syntax = "on"                                   -- Syntax highlighting
+set.tabstop = 2                                     -- Indent using two spaces
+set.termguicolors = true                            -- Active true colors in terminal
+set.textwidth = 80                                  -- Adjust the text to a max of X columns
+set.title = true                                    -- Show the name of the file on the window's title
+set.wrap = true                                     -- Wrap lines
