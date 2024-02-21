@@ -1,6 +1,9 @@
 # NEOVIM basic IDE
 
-This is a basic configuration to set up neovim as a IDE with basic functionalities and a good look interface.
+> [!WARNING]
+> Docs is not updated to the last changes
+
+This is a configuration to set up neovim as a IDE with basic functionalities and a good look interface.
 It includes features like file finder, folder explorer, completion, syntax highlight, etc.
 
 ## Requirements
@@ -23,22 +26,6 @@ Clone this repository
 ```sh
 git clone https://github.com/Danatts/nvim.git ~/.config/nvim --depth 1
 ```
-
-Install [vim-plug](https://github.com/junegunn/vim-plug)
-
-```sh
-curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-Run `nvim` on the terminal to initialize Neovim and press `q` to exit warnings
-
-Type `PlugInstall` on command mode in order to install the plugins.
-
-```
-:PlugInstall
-```
-
-Restart Neovim to see the changes.
 
 If you have any problem with a plugin check its documentation. Below you will find a list with all
 the used plugins
@@ -127,5 +114,3 @@ Autotag
 Gruvbox
 - [ sainnhe/gruvbox-material ](https://github.com/sainnhe/gruvbox-material)
 
-OneDark
-- [ navarasu/onedark.nvim ](https://github.com/navarasu/onedark.nvim)

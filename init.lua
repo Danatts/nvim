@@ -87,17 +87,18 @@ require("lazy").setup({
           disable = {},
         },
         ensure_installed = {
-          "tsx",
-          "typescript",
+          "css",
+          "html",
           "javascript",
           "json",
+          "lua",
+          "markdown",
           "python",
+          "regex",
           "rust",
           "toml",
-          "html",
-          "css",
-          "markdown",
-          "regex",
+          "tsx",
+          "typescript",
         },
         autotag = {
           enable = true,
@@ -111,17 +112,18 @@ require("lazy").setup({
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
       local lspconfig = require('lspconfig')
 
+      lspconfig.clangd.setup { capabilities = capabilities }
+      lspconfig.cssls.setup { capabilities = capabilities }
+      lspconfig.html.setup { capabilities = capabilities }
       lspconfig.quick_lint_js.setup { capabilities = capabilities, filetypes = { 'javascript', 'javascriptreact' } }
       lspconfig.tsserver.setup { capabilities = capabilities }
       lspconfig.jsonls.setup { capabilities = capabilities }
-      lspconfig.cssls.setup { capabilities = capabilities }
       lspconfig.tailwindcss.setup { capabilities = capabilities }
-      lspconfig.html.setup { capabilities = capabilities }
       lspconfig.pyright.setup { capabilities = capabilities }
       lspconfig.rust_analyzer.setup { capabilities = capabilities }
       lspconfig.taplo.setup { capabilities = capabilities }
       lspconfig.bashls.setup { capabilities = capabilities }
-      lspconfig.clangd.setup { capabilities = capabilities }
+      lspconfig.lua_ls.setup { capabilities = capabilities }
 
       vim.api.nvim_create_autocmd('LspAttach', {
         group = vim.api.nvim_create_augroup('UserLspConfig', {}),
