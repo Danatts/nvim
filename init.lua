@@ -3,7 +3,7 @@ require("settings")
 require("keymaps")
 
 -- Themes
-vim.cmd [[ source $HOME/.config/nvim/themes/gruvbox.vim ]]
+require("themes.gruvbox")
 
 -- Lazy Vim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
