@@ -1,19 +1,16 @@
 # NEOVIM basic IDE
 
-> [!WARNING]
-> Docs is not updated to the last changes
-
-This is a configuration to set up neovim as a IDE with basic functionalities and a good look interface.
-It includes features like file finder, folder explorer, completion, syntax highlight, etc.
+Neovim's configuration for a basic IDE powered by [lazy.nvim](https://github.com/folke/lazy.nvim).
 
 ## Requirements
 
-- neovim >=0.9.0
-- git
+- Neovim >=0.9.0
+- Git
 - [A Nerdfont](https://github.com/ryanoasis/nerd-fonts)
 - A C compiler in your path and libstdc++ installed
-- Wayland users: `wl-clipboard`
-- X11 users: `xclip`
+- In order to enable clipboard:
+    - Wayland users: `wl-clipboard`
+    - X11 users: `xclip`
 
 ## Installation guide
 
@@ -27,9 +24,6 @@ Clone this repository
 git clone https://github.com/Danatts/nvim.git ~/.config/nvim --depth 1
 ```
 
-If you have any problem with a plugin check its documentation. Below you will find a list with all
-the used plugins
-
 ## Add a new language
 
 1. Install the language in `nvim-treesitter`.
@@ -38,29 +32,27 @@ the used plugins
 :TSInstall <language_to_install>
 ```
 
-2. Add the language server in nvim-cmp config file at the end of the file.
+2. Add the language server in `lua/plugins/lspconfig.lua` along with the others.
+
+```lua
+lspconfig.<language_server_name>.setup { capabilities = capabilities }
+```
 
 [ Check the list for all languages servers available. ](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
-
-```sh
-require('lspconfig')['<language_server_to_install>'].setup {
-  capabilities = capabilities
-}
-```
 
 3. Install the language server.
 
 ```sh
-:MasonInstall <language_server_to_install>
+:MasonInstall <language_server_name>
 ```
 
 ## Plugins used
 
 File icons across multiple plugins
-- [ kyazdani42/nvim-web-devicons ](https://github.com/kyazdani42/nvim-web-devicons)
+- [ nvim-tree/nvim-web-devicons ](https://github.com/nvim-tree/nvim-web-devicons)
 
 File explorer
-- [ kyazdani42/nvim-tree.lua ](https://github.com/kyazdani42/nvim-tree.lua)
+- [ nvim-tree/nvim-tree.lua ](https://github.com/nvim-tree/nvim-tree.lua)
 
 Indent blank line
 - [ lukas-reineke/indent-blankline.nvim ](https://github.com/lukas-reineke/indent-blankline.nvim)
