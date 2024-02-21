@@ -1,7 +1,6 @@
+-- General
 require("settings")
--- Settings
-vim.cmd [[ source $HOME/.config/nvim/general/settings.vim ]]
-vim.cmd [[ source $HOME/.config/nvim/general/keymaps.vim ]]
+require("keymaps")
 
 -- Themes
 vim.cmd [[ source $HOME/.config/nvim/themes/gruvbox.vim ]]
