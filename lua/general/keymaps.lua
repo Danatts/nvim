@@ -19,6 +19,8 @@ map.set("!", "kj", "<Esc>")
 map.set("v", "kj", "<Esc>")
 
 -- Buffers
+map.set("", "<A-m>", ":blast<CR>")
+map.set("", "<A-f>", ":bfirst<CR>")
 map.set("", "<A-b>", ":bprev<CR>")
 map.set("", "<A-n>", ":bnext<CR>")
 map.set("", "<A-w>", ":bd<CR>")
