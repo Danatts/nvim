@@ -40,7 +40,6 @@ require("lazy").setup({
   require("plugins.masonlsp"),
   require("plugins.nvim-tree"),
   require("plugins.plenary"),
-  require("plugins.popup"),
   require("plugins.ripgrep"),
   require("plugins.surround"),
   require("plugins.telescope"),

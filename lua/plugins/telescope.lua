@@ -10,7 +10,8 @@ return {
           "build",
           "dist"
         }
-      }
+      },
+      dependencies = { "nvim-lua/plenary.nvim" }
     })
   end
 }
