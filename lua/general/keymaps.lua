@@ -5,29 +5,25 @@ map.set("", "<A-q>", ":q<CR>")  -- Exit
 map.set("", "<A-s>", ":w<CR>")  -- Save current document
 map.set("", "<A-a>", ":wa<CR>") -- Save all document
 
--- Buffer navigation
+-- Window navigation
 map.set("", "<A-h>", "<C-W>h")
 map.set("", "<A-j>", "<C-W>j")
 map.set("", "<A-k>", "<C-W>k")
 map.set("", "<A-l>", "<C-W>l")
 
 -- Utils
-map.set("t", "<Esc>", "<C-\\><C-n>") -- Escape terminal mode
-map.set("", "<A-i>", "gg=G")         -- Indent all document
+map.set("", "<A-i>", "gg=G") -- Indent all document
 
 -- Return to normal mode when in insert mode, visual mode and command mode
 map.set("!", "kj", "<Esc>")
 map.set("v", "kj", "<Esc>")
 
--- Tabs
-map.set("", "<A-t>", ":tabedit<CR>")
+-- Buffers
+map.set("", "<A-b>", ":bprev<CR>")
+map.set("", "<A-n>", ":bnext<CR>")
 map.set("", "<A-w>", ":bd<CR>")
 
 -- PLUGINS
-
--- Bufferline
-map.set("", "<A-n>", ":BufferLineCycleNext<CR>")
-map.set("", "<A-b>", ":BufferLineCyclePrev<CR>")
 
 -- NVimTree
 map.set("", "<A-o>", ":NvimTreeToggle<CR>")

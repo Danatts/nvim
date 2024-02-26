@@ -23,7 +23,6 @@ require("lazy").setup({
   require("plugins.autopairs"),
   require("plugins.autotag"),
   require("plugins.blankline"),
-  require("plugins.bufferline"),
   require("plugins.cmp-buffer"),
   require("plugins.cmp-cmdline"),
   require("plugins.cmp-luasnip"),

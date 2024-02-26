@@ -66,9 +66,6 @@ Auto pairs
 Customable status bar
 - [ nvim-lualine/lualine.nvim ](https://github.com/nvim-lualine/lualine.nvim)
 
-Buffer/Tab manages
-- [ akinsho/bufferline.nvim ](https://github.com/akinsho/bufferline.nvim)
-
 Syntax highlight
 - [ nvim-treesitter/nvim-treesitter ](https://github.com/nvim-treesitter/nvim-treesitter)
 

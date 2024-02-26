@@ -2,8 +2,12 @@ return {
   "nvim-lualine/lualine.nvim",
   config = function()
     require("lualine").setup({
+      options = {
+        component_separators = { left = "", right = "|" },
+        section_separators = "",
+      },
       sections = {
-        lualine_c = { 'buffers' },
+        lualine_c = { 'buffers' }
       }
     })
   end
