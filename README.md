@@ -69,12 +69,9 @@ Customable status bar
 Syntax highlight
 - [ nvim-treesitter/nvim-treesitter ](https://github.com/nvim-treesitter/nvim-treesitter)
 
-Popup
-- [ nvim-lua/plenary.nvim ](https://github.com/nvim-lua/plenary.nvim)
-- [ nvim-lua/popup.nvim ](https://github.com/nvim-lua/popup.nvim)
-
 Fuzzy finder
 - [ nvim-lua/telescope.nvim ](https://github.com/nvim-telescope/telescope.nvim)
+- [ nvim-lua/plenary.nvim ](https://github.com/nvim-lua/plenary.nvim)
 - [ jremmen/vim-ripgrep ](https://github.com/jremmen/vim-ripgrep)
 
 LSP server configuration
