@@ -46,4 +46,5 @@ require("lazy").setup({
   require("plugins.treesitter"),
   -- Themes
   require("themes.gruvbox"),
+  require("themes.onedark"),
 })
