@@ -47,4 +47,5 @@ require("lazy").setup({
   -- Themes
   require("themes.gruvbox"),
   require("themes.onedark"),
+  require("themes.cyberdream")
 })
