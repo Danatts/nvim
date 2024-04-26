@@ -24,6 +24,14 @@ Clone this repository
 git clone https://github.com/Danatts/nvim.git ~/.config/nvim --depth 1
 ```
 
+## Troubleshooting
+
+If TreeSitter does not compile, try:
+
+```sh
+sudo apt install libc6-dev
+```
+
 ## Add a new language
 
 1. Install the language in `nvim-treesitter`.
