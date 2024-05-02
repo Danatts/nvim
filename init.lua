@@ -45,7 +45,6 @@ require("lazy").setup({
   require("plugins.telescope"),
   require("plugins.treesitter"),
   -- Themes
-  require("themes.gruvbox"),
   require("themes.onedark"),
   require("themes.cyberdream")
 })
