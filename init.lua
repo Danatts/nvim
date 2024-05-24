@@ -46,5 +46,5 @@ require("lazy").setup({
   require("plugins.treesitter"),
   -- Themes
   require("themes.onedark"),
-  require("themes.cyberdream")
+  require("themes.cyberdream"),
 })

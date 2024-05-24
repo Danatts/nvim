@@ -10,6 +10,5 @@ return {
       borderless_telescope = false,
       terminal_colors = true,
     })
-    require("cyberdream").load()
   end,
 }

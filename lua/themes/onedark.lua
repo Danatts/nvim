@@ -6,5 +6,6 @@ return {
     require("onedark").setup {
       style = "darker"
     }
-  end
+    require("onedark").load()
+  end,
 }
