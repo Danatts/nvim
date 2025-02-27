@@ -8,7 +8,6 @@ return {
       italic_comments = true,
       hide_fillchars = true,
       borderless_telescope = false,
-      terminal_colors = true,
     })
   end,
 }

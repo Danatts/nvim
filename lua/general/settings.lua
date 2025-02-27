@@ -2,7 +2,7 @@ local set = vim.opt
 
 set.autoindent = true                               -- New lines inherit the indentation of previous lines
 set.clipboard = "unnamedplus"                       -- Copy on clipboard
-set.colorcolumn = "101"                             -- Set ruler at X column
+set.colorcolumn = "81"                             -- Set ruler at X column
 set.cursorline = true                               -- Highlight current line
 set.background = "dark"                             -- Background scheme theme
 set.expandtab = true                                -- Convert tabs to spaces

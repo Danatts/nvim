@@ -8,7 +8,7 @@ return {
     lspconfig.cssls.setup { capabilities = capabilities }
     lspconfig.html.setup { capabilities = capabilities }
     lspconfig.quick_lint_js.setup { capabilities = capabilities, filetypes = { 'javascript', 'javascriptreact' } }
-    lspconfig.tsserver.setup { capabilities = capabilities }
+    lspconfig.ts_ls.setup { capabilities = capabilities }
     lspconfig.biome.setup { capabilities = capabilities }
     lspconfig.astro.setup { capabilities = capabilities }
     lspconfig.jsonls.setup { capabilities = capabilities }
