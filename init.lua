@@ -50,7 +50,7 @@ require("lazy").setup({
   require("themes.cyberdream"),
 })
 
-vim.cmd.colorscheme "cyberdream"
+vim.cmd.colorscheme "onedark"
 
 vim.api.nvim_create_autocmd({ "BufEnter" }, {
   pattern = { "*.md", "*.txt" },

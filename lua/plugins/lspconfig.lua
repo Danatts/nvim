@@ -1,23 +1,22 @@
 return {
   "neovim/nvim-lspconfig",
   config = function()
-    local capabilities = require('cmp_nvim_lsp').default_capabilities()
-    local lspconfig = require('lspconfig')
+    local lspcfg = vim.lsp
 
-    lspconfig.clangd.setup { capabilities = capabilities }
-    lspconfig.cssls.setup { capabilities = capabilities }
-    lspconfig.html.setup { capabilities = capabilities }
-    lspconfig.quick_lint_js.setup { capabilities = capabilities, filetypes = { 'javascript', 'javascriptreact' } }
-    lspconfig.ts_ls.setup { capabilities = capabilities }
-    lspconfig.biome.setup { capabilities = capabilities }
-    lspconfig.astro.setup { capabilities = capabilities }
-    lspconfig.jsonls.setup { capabilities = capabilities }
-    lspconfig.tailwindcss.setup { capabilities = capabilities }
-    lspconfig.pyright.setup { capabilities = capabilities }
-    lspconfig.rust_analyzer.setup { capabilities = capabilities }
-    lspconfig.taplo.setup { capabilities = capabilities }
-    lspconfig.bashls.setup { capabilities = capabilities }
-    lspconfig.lua_ls.setup { capabilities = capabilities }
+    lspcfg.enable('clangd')
+    lspcfg.enable('cssls')
+    lspcfg.enable('html')
+    lspcfg.enable('quick_lint_js')
+    lspcfg.enable('ts_ls')
+    lspcfg.enable('biome')
+    lspcfg.enable('astro')
+    lspcfg.enable('jsonls')
+    lspcfg.enable('tailwindcss')
+    lspcfg.enable('pyright')
+    lspcfg.enable('rust_analyzer')
+    lspcfg.enable('taplo')
+    lspcfg.enable('bashls')
+    lspcfg.enable('lua_ls')
 
     vim.api.nvim_create_autocmd('LspAttach', {
       group = vim.api.nvim_create_augroup('UserLspConfig', {}),

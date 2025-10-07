@@ -4,7 +4,7 @@ Neovim's configuration for a basic IDE powered by [lazy.nvim](https://github.com
 
 ## Requirements
 
-- Neovim >=0.9.0
+- Neovim >=0.11.0
 - Git
 - [A Nerdfont](https://github.com/ryanoasis/nerd-fonts)
 - A C compiler in your path and libstdc++ installed
@@ -43,7 +43,7 @@ sudo apt install libc6-dev
 2. Add the language server in `lua/plugins/lspconfig.lua` along with the others.
 
 ```lua
-lspconfig.<language_server_name>.setup { capabilities = capabilities }
+lspcfg.enable('<language_server_name>')
 ```
 
 [ Check the list for all languages servers available. ](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
