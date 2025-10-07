@@ -31,7 +31,5 @@ map.set("", "<A-w>", ":bd<CR>")
 map.set("", "<A-o>", ":NvimTreeToggle<CR>")
 
 -- Telescope
-map.set("", "ff", ":Telescope find_files<cr>")
-map.set("", "fg", ":Telescope live_grep<cr>")
-map.set("", "fb", ":Telescope buffers<cr>")
-map.set("", "fh", ":Telescope help_tags<cr>")
+map.set("", "ff", ":FzfLua files<cr>")
+map.set("", "fb", ":FzfLua buffers<cr>")

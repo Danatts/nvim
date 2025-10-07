@@ -39,10 +39,8 @@ require("lazy").setup({
   require("plugins.mason"),
   require("plugins.masonlsp"),
   require("plugins.nvim-tree"),
-  require("plugins.plenary"),
-  require("plugins.ripgrep"),
   require("plugins.surround"),
-  require("plugins.telescope"),
+  require("plugins.fzf"),
   require("plugins.treesitter"),
   -- Themes
   require("themes.onedark"),
