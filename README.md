@@ -6,6 +6,7 @@ Neovim's configuration for a basic IDE powered by [lazy.nvim](https://github.com
 
 - Neovim >=0.11.0
 - Git
+- fzf >= 0.36
 - [A Nerdfont](https://github.com/ryanoasis/nerd-fonts)
 - A C compiler in your path and libstdc++ installed
 - In order to enable clipboard:
@@ -32,7 +33,7 @@ If TreeSitter does not compile, try:
 sudo apt install libc6-dev
 ```
 
-## Add a new language
+## Add a new language server
 
 1. Install the language in `nvim-treesitter`.
 
@@ -53,58 +54,3 @@ lspcfg.enable('<language_server_name>')
 ```sh
 :MasonInstall <language_server_name>
 ```
-
-## Plugins used
-
-File icons across multiple plugins
-- [ nvim-tree/nvim-web-devicons ](https://github.com/nvim-tree/nvim-web-devicons)
-
-File explorer
-- [ nvim-tree/nvim-tree.lua ](https://github.com/nvim-tree/nvim-tree.lua)
-
-Indent blank line
-- [ lukas-reineke/indent-blankline.nvim ](https://github.com/lukas-reineke/indent-blankline.nvim)
-
-Colorize hex color codes
-- [ norcalli/nvim-colorizer.lua ](https://github.com/norcalli/nvim-colorizer.lua)
-
-Auto pairs
-- [ windwp/nvim-autopairs ](https://github.com/windwp/nvim-autopairs)
-
-Customable status bar
-- [ nvim-lualine/lualine.nvim ](https://github.com/nvim-lualine/lualine.nvim)
-
-Syntax highlight
-- [ nvim-treesitter/nvim-treesitter ](https://github.com/nvim-treesitter/nvim-treesitter)
-
-Fuzzy finder
-- [ nvim-lua/telescope.nvim ](https://github.com/nvim-telescope/telescope.nvim)
-- [ nvim-lua/plenary.nvim ](https://github.com/nvim-lua/plenary.nvim)
-- [ jremmen/vim-ripgrep ](https://github.com/jremmen/vim-ripgrep)
-
-LSP server configuration
-- [ neovim/nvim-lspconfig ](https://github.com/neovim/nvim-lspconfig)
-
-LSP installer
-- [  williamboman/mason.nvim ](https://github.com/williamboman/mason.nvim)
-- [  williamboman/ mason-lspconfig.nvim ](https://github.com/williamboman/mason-lspconfig.nvim)
-
-Completion
-- [ hrsh7th/nvim-cmp ](https://github.com/hrsh7th/nvim-cmp)
-
-Snippet
-- [ L3MON4D3/LuaSnip ](https://github.com/L3MON4D3/LuaSnip)
-- [ rafamadriz/friendly-snippets ](https://github.com/rafamadriz/friendly-snippets)
-
-Surrounding
-- [ tpope/vim-surround ](https://github.com/tpope/vim-surround)
-
-Improve HTML and CSS workflow
-- [ mattn/emmet-vim ](https://github.com/mattn/emmet-vim)
-
-Autotag
-- [ windwp/nvim-ts-autotag ](https://github.com/windwp/nvim-ts-autotag)
-
-Gruvbox
-- [ sainnhe/gruvbox-material ](https://github.com/sainnhe/gruvbox-material)
-

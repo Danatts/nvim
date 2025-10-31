@@ -46,13 +46,14 @@ require("lazy").setup({
   require("themes.onedark"),
   require("themes.e-ink"),
   require("themes.cyberdream"),
+  require("themes.monokaipro"),
 })
 
 vim.cmd.colorscheme "onedark"
 
-vim.api.nvim_create_autocmd({ "BufEnter" }, {
-  pattern = { "*.md", "*.txt" },
-  callback = function()
-    vim.cmd.colorscheme "e-ink"
-  end
-})
+-- vim.api.nvim_create_autocmd({ "BufEnter" }, {
+--   pattern = { "*.md", "*.txt" },
+--   callback = function()
+--     vim.cmd.colorscheme "e-ink"
+--   end
+-- })
