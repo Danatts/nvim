@@ -2,6 +2,7 @@ local map = vim.keymap
 
 -- Exit
 map.set("", "<A-q>", ":q<CR>")  -- Exit
+map.set("t", "<Esc>", ":<C-\\><C-n>") -- Exit terminal mode
 map.set("", "<A-s>", ":w<CR>")  -- Save current document
 map.set("", "<A-a>", ":wa<CR>") -- Save all document
 
@@ -19,11 +20,14 @@ map.set("!", "kj", "<Esc>")
 map.set("v", "kj", "<Esc>")
 
 -- Buffers
+map.set("", "<A-v>", ":bfirst<CR>")
 map.set("", "<A-m>", ":blast<CR>")
-map.set("", "<A-f>", ":bfirst<CR>")
 map.set("", "<A-b>", ":bprev<CR>")
 map.set("", "<A-n>", ":bnext<CR>")
 map.set("", "<A-w>", ":bd<CR>")
+
+-- LSP
+map.set("", "<A-f>", ":lua vim.lsp.buf.format()<CR>")
 
 -- PLUGINS
 
